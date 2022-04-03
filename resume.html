@@ -6,79 +6,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Html, tags, course">
     <meta name="description" content="Это сайт резюме Ксения Андреева">
+    <link rel="stylesheet" href="styles.css">
     <title>Сайт-резюме</title>
 </head>
 <body>
- <img src="88VFkIFzpgk.jpg" width="300" alt="sorry, there is no image">
-  <h1>Андреева Ксения</h1>
-  <hr>
-  <p><strong><em>Счастливый</em></strong> человек, работаю на заводе, <strong>люблю своего мужа</strong>!</p>
-  <p>Люблю фотографировать, ходить в горы, <strong>мечтаю обучиться в альпшколе</strong>.</p>
-  <p>У меня есть две кошки: <strong><em>Клёпа</em></strong> и <strong><em>Люся</em></strong>.</p>
-  <br>
-  <h2>Список социальных сетей</h2>
-  <a href="https://vk.com/id144605068" target="_blank">Vkontakte</a>
-  <br>
-<h1> Мои хобби </h1>
-<ul type="square">
-  <li>Фотография</li>
-  <li>Горный треккинг</li>
-  <li>Пилатес</li>
-  <li>Музыка</li>
-</ul>
-<br>
-<table width="400">
-  <thead>
-    <th> Название </th>
-    <th> Должность </th>
-    <th> Год</th>
-  </thead>
-  <tbody>
-    <tr>
-      <td>ЕвроХим</td>
-      <td>Контролер качества продукции</td>
-      <td>2015-2016</td>
-    </tr>
-    <tr>
-      <td>ЕвроХим</td>
-      <td>Инженер цеха ЦСМУ-1</td>
-      <td>2016-2017</td>
-    </tr>
-    <tr>
-      <td>ЕвроХим</td>
-      <td>Специалист по ОТ</td>
-      <td>2017-2019</td>
-    </tr>
-    <tr>
-      <td>Боксберри</td>
-      <td>Специалист по ОТ</td>
-      <td>2020-2021</td>
-    </tr>
-    <tr>
-      <td>Сатурн</td>
-      <td>Инженер</td>
-      <td>2021-сейчас</td>
-    </tr>
-  </tbody>
-</table>
-<br>
+  <div class="container">
+    <div class="info">
+    <img src="88VFkIFzpgk.jpg" width="300" alt="sorry, there is no image">
+      <div class="info-text">
+     <h1>Андреева Ксения</h1>
+      <p><strong><em>Счастливый</em></strong> человек, работаю на заводе, <strong>люблю своего мужа</strong>!</p>
+      <p>Люблю фотографировать, ходить в горы, <strong>мечтаю обучиться в альпшколе</strong>.</p>
+      <p>У меня есть две кошки: <strong><em>Клёпа</em></strong> и <strong><em>Люся</em></strong>.</p>
+    </div>
+  </div>
+  <div class="web">
+      <h2>Список социальных сетей</h2>
+      <a href="https://vk.com/id144605068" target="_blank">Vkontakte</a>
+    </div>
+<div class="block">
+  <h2> Мои хобби </h2>
+  <ul type="square">
+    <li>Фотография</li>
+    <li>Горный треккинг</li>
+    <li>Пилатес</li>
+    <li>Музыка</li>
+  </ul>
+</div>
+<div class="table">
+  <table width="400">
+    <thead>
+      <th> Название </th>
+      <th> Должность </th>
+      <th> Год</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>ЕвроХим</td>
+        <td>Контролер качества продукции</td>
+        <td>2015-2016</td>
+      </tr>
+      <tr>
+        <td>ЕвроХим</td>
+        <td>Инженер цеха ЦСМУ-1</td>
+        <td>2016-2017</td>
+      </tr>
+      <tr>
+        <td>ЕвроХим</td>
+        <td>Специалист по ОТ</td>
+        <td>2017-2019</td>
+      </tr>
+      <tr>
+        <td>Боксберри</td>
+        <td>Специалист по ОТ</td>
+        <td>2020-2021</td>
+      </tr>
+      <tr>
+        <td>Сатурн</td>
+        <td>Инженер</td>
+        <td>2021-сейчас</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="form">
 <h2>Связаться со мной</h2>
 <br>
 <form>
-  <div>
+  <div class="form-row">
+  <div class="form-group">
     <label for="text"> Ваше имя: </label>
     <input type="text" id="text"placeholder="Введите имя">
   </div>
-  <div>
+  <div class="form-group"n>
     <label for="email"> Ваше email: </label>
     <input type="email" id="email"placeholder="Введите email">
   </div>
-  <div>
+  </div>
+  <div class="form-group" >
     <label for="message"> Ваше сообщение: </label>
     <br>
     <textarea id="message" cols="30" rows="10" placeholder="Введите сообщение... "></textarea>
   </div>
   <button type="submit">Отправить!</button>
 </form>
+</div>
+</div>
 </body>
 </html>
